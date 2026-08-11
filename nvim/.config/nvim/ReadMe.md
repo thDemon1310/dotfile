@@ -43,7 +43,7 @@ $ cd build && cpack -G DEB && sudo dpkg -i nvim-linux-x86_64.deb
 ## Neovim PLugion Dependency
 ### Image
 ```bash
-$ sudo apt install imagemagick
+$ sudo apt install imagemagick librsvg2-bin
 ```
 
 ### Plugin runtime deps
