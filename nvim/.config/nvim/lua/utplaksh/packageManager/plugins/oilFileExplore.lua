@@ -20,7 +20,7 @@ oil.setup({
 	},
 	keymaps = {
 		["<C-h>"] = false, -- unbind if it clashes with window-nav keymaps
-		["<C-l>"] = false,
+		-- ["<C-l>"] = false,
 	},
 })
 
