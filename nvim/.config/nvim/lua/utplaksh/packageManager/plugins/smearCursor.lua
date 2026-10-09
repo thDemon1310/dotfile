@@ -3,5 +3,8 @@ vim.pack.add({
 })
 
 require("smear_cursor").setup({
-	-- Your options
+	smear_between_buffers = true,
+	smear_between_neighbor_lines = true,
+	scroll_buffer_space = true,
+	smear_insert_mode = true,
 })
